@@ -1,6 +1,6 @@
 FROM devwithlando/php:7.0-fpm
 
-LABEL maintainer="Coby Tamayo <ctamayo@sitecrafting.com>" license="MIT"
+LABEL maintainer="Sean Dean <sdean@sitecrafting.com>" license="MIT"
 
 # Configure PHP to include Phalcon module
 COPY phalcon.ini .
